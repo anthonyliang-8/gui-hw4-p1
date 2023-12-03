@@ -9,7 +9,7 @@ const thead = document.getElementById("thead");
 const formDiv = document.getElementById("form-div");
 const err = document.getElementById("err");
 
-// Function to generate the table based on user input
+// function to generate the table based on user input
 function generateTable() {
   var min_col_val = parseInt(document.getElementById("min_col_val").value);
   var max_col_val = parseInt(document.getElementById("max_col_val").value);
